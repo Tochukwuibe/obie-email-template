@@ -1,0 +1,139 @@
+<mjml>
+  <mj-head>
+    <mj-title>Email</mj-title>
+    <mj-attributes>
+
+
+      <mj-all font-family="Helvetica" />
+      <mj-class name="greeting" font-size="21px" />
+      <mj-class name="welcome" font-weight="bold" font-size="40px" />
+      <mj-class name="text-color"  color="#818181"/>
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F8F8F8">
+
+    <mj-section padding="0 16px" full-width="full-width" background-color="#5E4F86">
+      <mj-column width="100%">
+        <mj-image align="left" width="100px" src="./logo.png" alt="interbibler" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 16px" full-width="full-width">
+      <mj-column padding="20px 0" width="100%">
+
+        <mj-text mj-class="greeting" css-class="greeting">
+          Greetings
+        </mj-text>
+
+        <mj-text mj-class="welcome">
+          Welcome to Interbibler!
+        </mj-text>
+
+        <mj-text mj-class="text-color" font-size="21px">
+          You activated your customer account. You’re all set up to start using Interbibler whenever you feel like it.
+        </mj-text>
+
+        <mj-button align="left" background-color="#44ACA3" color="#fff">
+          Visit our site
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 16px" full-width="full-width">
+      <mj-column width="100%">
+        <mj-divider border-color="#E3E3E3" border-width="1px" />
+
+        <mj-text mj-class="text-color">
+          if you have any questions please reply to this email or contact us at
+
+        </mj-text>
+
+        <mj-text color="blue">
+          hello@interbibler.io
+        </mj-text>
+
+        <mj-divider border-color="#E3E3E3" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding="0 16px" full-width="full-width">
+      <mj-column padding="20px 0" width="100%">
+        <mj-text font-size="40px">
+          Follow Us
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" full-width="full-width">
+      <mj-column width="20%">
+        <mj-social>
+          <mj-social-element background-color="black" icon-size="40px" name="twitter">
+
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-social>
+          <mj-social-element background-color="black" icon-size="40px" name="instagram">
+
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-social>
+          <mj-social-element background-color="black" icon-size="40px" name="facebook">
+
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-social>
+          <mj-social-element background-color="black" icon-size="40px" name="google">
+
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-social>
+          <mj-social-element background-color="black" icon-size="40px" name="dribbble">
+
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section>
+
+      <mj-column padding="20px 0" width="33%">
+        <mj-text align="center" mj-class="text-color">
+          © 2018 Interbibler. All rights reserved.
+        </mj-text>
+        <mj-text align="center" mj-class="text-color">
+          Oklahoma City, OK
+        </mj-text>
+      </mj-column>
+
+
+      <mj-column padding="20px 0" width="33%">
+
+      </mj-column>
+
+      <mj-column padding="20px 0" width="33%">
+        <mj-text mj-class="text-color" align="center" text-decoration="underline">
+          Faqs
+        </mj-text>
+        <mj-text mj-class="text-color" align="center" text-decoration="underline">
+          Terms and Conditions
+        </mj-text>
+        <mj-text mj-class="text-color" align="center" text-decoration="underline">
+          Privacy Policy
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+  </mj-body>
+</mjml>
