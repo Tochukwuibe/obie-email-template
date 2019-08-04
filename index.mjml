@@ -7,9 +7,39 @@
       <mj-all font-family="Helvetica" />
       <mj-class name="greeting" font-size="21px" />
       <mj-class name="welcome" font-weight="bold" font-size="40px" />
-      <mj-class name="text-color"  color="#818181"/>
+      <mj-class name="text-color" color="#818181" />
 
     </mj-attributes>
+
+    <mj-style>
+      .red-text div {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+      }
+
+
+
+      .footer-right div {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end !important;
+        justify-content: flex-end !important;
+        text-align: right !important;
+      }
+    </mj-style>
+
+    <mj-style>
+      @media only screen and(min-width: 481px) {
+        .footer-right div {
+          border: 1px solid blue !important;
+          justify-content: center !important;
+        }
+      }
+    </mj-style>
+
+
+
   </mj-head>
   <mj-body background-color="#F8F8F8">
 
@@ -34,7 +64,7 @@
           You activated your customer account. You’re all set up to start using Interbibler whenever you feel like it.
         </mj-text>
 
-        <mj-button align="left" background-color="#44ACA3" color="#fff">
+        <mj-button height="30px" width="181px" align="left" background-color="#44ACA3" color="#fff">
           Visit our site
         </mj-button>
 
@@ -106,30 +136,30 @@
 
     </mj-section>
 
-    <mj-section>
+    <mj-section css-class="red-text">
 
       <mj-column padding="20px 0" width="33%">
-        <mj-text align="center" mj-class="text-color">
+        <mj-text mj-class="text-color">
           © 2018 Interbibler. All rights reserved.
         </mj-text>
-        <mj-text align="center" mj-class="text-color">
+        <mj-text mj-class="text-color">
           Oklahoma City, OK
         </mj-text>
       </mj-column>
 
-
       <mj-column padding="20px 0" width="33%">
 
       </mj-column>
 
+
       <mj-column padding="20px 0" width="33%">
-        <mj-text mj-class="text-color" align="center" text-decoration="underline">
+        <mj-text mj-class="text-color" text-decoration="underline">
           Faqs
         </mj-text>
-        <mj-text mj-class="text-color" align="center" text-decoration="underline">
+        <mj-text mj-class="text-color" text-decoration="underline">
           Terms and Conditions
         </mj-text>
-        <mj-text mj-class="text-color" align="center" text-decoration="underline">
+        <mj-text mj-class="text-color" text-decoration="underline">
           Privacy Policy
         </mj-text>
       </mj-column>
