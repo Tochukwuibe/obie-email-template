@@ -20,24 +20,38 @@
 
 
 
-      .footer-right div {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end !important;
-        justify-content: flex-end !important;
-        text-align: right !important;
+      .footer div  {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        text-decoration: underline !important;
+        color: #818181 !important;
+        text-align: center !important;
       }
-    </mj-style>
 
-    <mj-style>
-      @media only screen and(min-width: 481px) {
+
+
+      .row-col {
+        border: 1px solid red !important;
+        display: flex !important;
+        flex-direction: row !important;
+      }
+
+      @media (min-width: 481px) {
+
+
+        .footer-left div {
+         justify-content: left !important;
+          text-align: left !important;
+        }
+
         .footer-right div {
-          border: 1px solid blue !important;
-          justify-content: center !important;
+          display: inline-block !important;
+          text-align: right !important;
+          float: right !important;
         }
       }
     </mj-style>
-
 
 
   </mj-head>
@@ -64,8 +78,8 @@
           You activated your customer account. You’re all set up to start using Interbibler whenever you feel like it.
         </mj-text>
 
-        <mj-button height="30px" width="181px" align="left" background-color="#44ACA3" color="#fff">
-          Visit our site
+        <mj-button height="40px" width="181px" align="left" background-color="#44ACA3" color="#fff">
+          Visit our site >
         </mj-button>
 
       </mj-column>
@@ -98,72 +112,75 @@
     </mj-section>
 
     <mj-section padding="0" full-width="full-width">
-      <mj-column width="20%">
-        <mj-social>
-          <mj-social-element background-color="black" icon-size="40px" name="twitter">
+      <mj-group>
+        <mj-column width="20%">
+          <mj-social>
+            <mj-social-element background-color="black" color="black" icon-size="40px" name="twitter">
 
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-      <mj-column width="20%">
-        <mj-social>
-          <mj-social-element background-color="black" icon-size="40px" name="instagram">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+        <mj-column width="20%">
+          <mj-social>
+            <mj-social-element background-color="black" icon-size="40px" name="instagram">
 
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-      <mj-column width="20%">
-        <mj-social>
-          <mj-social-element background-color="black" icon-size="40px" name="facebook">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+        <mj-column width="20%">
+          <mj-social>
+            <mj-social-element background-color="black" icon-size="40px" name="facebook">
 
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-      <mj-column width="20%">
-        <mj-social>
-          <mj-social-element background-color="black" icon-size="40px" name="google">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+        <mj-column width="20%">
+          <mj-social>
+            <mj-social-element background-color="black" icon-size="40px" name="google">
 
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
-      <mj-column width="20%">
-        <mj-social>
-          <mj-social-element background-color="black" icon-size="40px" name="dribbble">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+        <mj-column width="20%">
+          <mj-social>
+            <mj-social-element background-color="black" icon-size="40px" name="dribbble">
 
-          </mj-social-element>
-        </mj-social>
-      </mj-column>
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-group>
+
+
 
     </mj-section>
 
-    <mj-section css-class="red-text">
+    <mj-section padding="0 16px" css-class="red-text">
 
-      <mj-column padding="20px 0" width="33%">
-        <mj-text mj-class="text-color">
+      <mj-column padding="20px 0" width="38%">
+        <mj-text css-class="footer footer-left">
           © 2018 Interbibler. All rights reserved.
         </mj-text>
-        <mj-text mj-class="text-color">
+        <mj-text css-class="footer footer-left">
           Oklahoma City, OK
         </mj-text>
       </mj-column>
 
-      <mj-column padding="20px 0" width="33%">
+      <mj-column padding="20px 0" width="23%">
 
       </mj-column>
 
 
-      <mj-column padding="20px 0" width="33%">
-        <mj-text mj-class="text-color" text-decoration="underline">
+      <mj-column padding="20px 0" width="38%">
+        <mj-text css-class="footer footer-right" text-decoration="underline">
           Faqs
         </mj-text>
-        <mj-text mj-class="text-color" text-decoration="underline">
+        <mj-text css-class="footer footer-right" text-decoration="underline">
           Terms and Conditions
         </mj-text>
-        <mj-text mj-class="text-color" text-decoration="underline">
+        <mj-text css-class="footer footer-right" text-decoration="underline">
           Privacy Policy
         </mj-text>
       </mj-column>
-
     </mj-section>
   </mj-body>
 </mjml>
